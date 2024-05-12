@@ -1,32 +1,9 @@
-# Env variables
-.env
-credentials.json
+#  Local .terraform directories
+**/.terraform/*
 
-# Compiled output
-dist/
+# .tfstate files
+*.tfstate
+*.tfstate.*
 
-# Node
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# System files
-.DS_Store
-Thumbs.db
+# .tfvars files
+*.tfvars
