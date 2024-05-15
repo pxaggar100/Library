@@ -47,7 +47,7 @@ environment {
             steps {
                 script {
                     // CD into deployment folder and run terraform commands
-                    dir('deployment') {
+                    dir('awsEC2') {
                         sh '''
                             terraform init
                             terraform plan
