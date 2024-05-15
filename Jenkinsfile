@@ -39,7 +39,7 @@ pipeline {
             steps {
                 script {
                     // CD into deployment folder and run terraform commands
-                    dir('awsMySQL') {
+                    dir('awsEC2') {
                         sh '''
                             terraform init
                             terraform plan
